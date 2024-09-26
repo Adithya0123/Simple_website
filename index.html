@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya Constructions</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div id="logo"><a href="index.html"><img src="images/bhavyalogo.png" alt=""/ width="188" height="79"></a></div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="subpages/our-story.html">Our Story</a></li>
+                            <li><a class="dropdown-item" href="subpages/team.html">Team</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Projects</a>
+                        <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <li><a class="dropdown-item" href="subpages/residential.html">Residential</a></li>
+                            <li><a class="dropdown-item" href="subpages/commercial.html">Commercial</a></li>
+                            <li><a class="dropdown-item" href="subpages/ongoing.html">Ongoing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="careerDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Career</a>
+                        <ul class="dropdown-menu" aria-labelledby="careerDropdown">
+                            <li><a class="dropdown-item" href="subpages/job-openings.html">Job Openings</a></li>
+                            <li><a class="dropdown-item" href="subpages/internships.html">Internships</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+                        <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                            <li><a class="dropdown-item" href="subpages/photo-gallery.html">Photo Gallery</a></li>
+                            <li><a class="dropdown-item" href="subpages/video-gallery.html">Video Gallery</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero bg-dark text-white text-center py-5" style="background-image: url('images/banner-2.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h1><b>Welcome to Bhavya Constructions</b></h1>
+            <h4><b>Your Dream Home Awaits</b></h4>
+            <a href="#properties" class="btn btn-gold mt-3">Explore Properties</a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h1>About Us</h1>
+                    <p><b>Bhavya Constructions</b> was found in the year 2004, The Company since then has blazed a trail of growth and success, emerging as a reputed builder and developer in Bangalore.</p>
+                    <p>It is a leading real estate company committed to building homes that reflect your style and meet your needs. With a legacy of trust and excellence, we ensure each project is delivered with quality and precision.</p>
+                    <p>The Company is strongly committed to help the buyer's realise their property dreams, every minute detail is taken up with utmost care which can help transform the environment to suit the lifestyle of residents.</p>
+                    <p>The Chairman with a vast growing portfolio of projects has brought an undaunted repute for quality, safety, friendly approach, transparency in dealing with buyer's and timely delivery of projects.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/banner-1.jpg"  class="img-fluid rounded" alt="About Bhavya Constructions">
+                    <p></p>
+                    <img src="images/banner-3.jpg"  class="img-fluid rounded" alt="About Bhavya Constructions">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Section -->
+    <section id="properties" class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-5">Our Properties</h1>
+            <div id="propertiesCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Property 1 -->
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="images/property 1.jpg" class="card-img-top" alt="Property 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bhavya Kanasu</h5>
+                                        <p class="card-text">A 4 flat apartment in the central Bangalore located at Rajajnagar ,just 3 mins from the Orion Mall and with close proximity to the important locations in and around the city.</p>
+                                        <a href="subpages/residential.html" class="btn btn-gold">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- Property 2 -->
+                        <div class="col-md-4 mb-4">
+                            <div class="card">
+                                <img src="images/property 3.jpg" class="card-img-top" alt="Property 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bhavya Harmony</h5>
+                                    <p class="card-text">A 24 flat apartment in the upscale Bangalore North located at Kodigehalli, just 5 mins from the Hebbal Flyover and with close proximity to the Manyata Techpark.</p>
+                                    <a href="subpages/residential.html" class="btn btn-gold">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Property 3 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="images/property 2.jpg" class="card-img-top" alt="Property 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bhavya Balaji</h5>
+                                        <p class="card-text">A 6 flat apartment in the upscale Bangalore North located at Sanjaynagar, just 5 mins from the Hebbal Flyover and with close proximity to the Manyata Techpark.</p>
+                                        <a href="subpages/commercial.html" class="btn btn-gold">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Property 4 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="images/zion.jpg" class="card-img-top" alt="Property 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bhavya Zion</h5>
+                                        <p class="card-text">A 8 flat apartment in the upscale Bangalore South located at Jayanagar 4th T Block, just 3 mins from the Jayanagar 4th Block Bus Stand and with close proximity to the SSMRV College.</p>
+                                        <a href="subpages/commercial.html" class="btn btn-gold">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Property 5 -->
+                            <div class="col-md-4 mb-4">
+                                <div class="card">
+                                    <img src="images/property 5.jpg" class="card-img-top" alt="Property 5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bhavya Residency</h5>
+                                        <p class="card-text">Bhavya Residency in Bangalore is a residential project that offers a blend of comfort, style, and convenience. This residential complex is designed to provide a serene living environment.</p>
+                                        <a href="subpages/ongoing.html" class="btn btn-gold">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button"  data-bs-target="#propertiesCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#propertiesCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-5">What Our Clients Say</h1>
+            <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div id="test" class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card p-3">
+                            <blockquote>
+                                <p class="card-text">"Bhavya Constructions helped us find our dream home. The process was smooth, and the team was professional."</p>
+                                <footer class="text-end"><strong>- Adithya</strong></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-3">
+                            <blockquote>
+                                <p class="card-text">"The team at Bhavya Constructions was incredibly supportive throughout our entire home-buying journey."</p>
+                                <footer class="text-end"><strong>- Arun Kumar</strong></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-3">
+                            <blockquote>
+                                <p class="card-text">"From start to finish, Bhavya Constructions exceeded our expectations. Their attention to detail and commitment to quality is unparalleled."</p>
+                                <footer class="text-end"><strong>- Michael Johnson</strong></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-3">
+                            <blockquote>
+                                <p class="card-text">"Choosing Bhavya Constructions was the best decision we made. They truly understood our needs and delivered beyond our expectations."</p>
+                                <footer class="text-end"><strong>- Sarah Khan</strong></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-3">
+                            <blockquote>
+                                <p class="card-text">"The professionalism and dedication of the Bhavya Constructions team made the whole process stress-free. Our family loves our new home!"</p>
+                                <footer class="text-end"><strong>- Melvin John</strong></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card p-3">
+                            <blockquote>
+                                <p class="card-text">"Working with Bhavya Constructions was a wonderful experience. They turned our vision into reality with incredible craftsmanship and service."</p>
+                                <footer class="text-end"><strong>- Varun Rao</strong></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <button id="cbtn1" class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button id="cbtn2" class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-5">Contact Us</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label"><b>Name</b></label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label"><b>Email</b></label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label"><b>Message</b></label>
+                            <textarea class="form-control" id="message" name="message" rows="3" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-gold" value="Submit" name="submit"><b>Submit</b></button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Our Address</h4>
+                    <p>#35/1 ,NCR Complex, 2nd Floor,16th Cross 8th Main,Malleswaram BANGALORE - 560055</p>
+                    <h4>Contact Info</h4>
+                    <p>Email: info@bhavyaconstructions.co.in</p>
+                    <p>Mobile :98450 084846 / 8951 008486 / 77957 88456</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p style="color : black">&copy; 2024 Bhavya Constructions. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com" class="social-icon" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.facebook.com" class="social-icon" target="_blank">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com" class="social-icon" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.twitter.com" class="social-icon" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
